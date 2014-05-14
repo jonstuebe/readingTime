@@ -1,0 +1,21 @@
+{
+  "name": "readingTime",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonstuebe/readingTime.git"
+  },
+  "author": "Jon Stuebe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonstuebe/readingTime/issues"
+  },
+  "dependencies": {
+    "gulp": "~3.6.2",
+    "gulp-notify": "~1.2.5",
+    "gulp-compass": "~1.1.9",
+    "gulp-uglify": "~0.3.0",
+    "gulp-concat": "~2.2.0"
+  }
+}

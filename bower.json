@@ -1,0 +1,19 @@
+{
+  "name": "readingTime",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jonstuebe/readingTime",
+  "authors": [
+    "Jonathan Stuebe <jstuebe@gmail.com>"
+  ],
+  "main": "jquery.readingTime.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "gulpfile.js"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.1"
+  }
+}

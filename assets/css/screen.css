@@ -1,0 +1,93 @@
+/* line 3, ../sass/screen.scss */
+body {
+  font-family: 'Droid Serif', serif;
+}
+
+/* line 7, ../sass/screen.scss */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  padding: 70px 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 14, ../sass/screen.scss */
+.container:before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: -moz-linear-gradient(top, #ffffff, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(top, #ffffff, rgba(255, 255, 255, 0));
+  background-image: -webkit-linear-gradient(top, #ffffff, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0));
+}
+/* line 26, ../sass/screen.scss */
+.container .left {
+  position: fixed;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  -moz-transition-duration: 350ms;
+  -o-transition-duration: 350ms;
+  -webkit-transition-duration: 350ms;
+  transition-duration: 350ms;
+}
+/* line 35, ../sass/screen.scss */
+.container .left.hide {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 39, ../sass/screen.scss */
+.container .left .perc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  z-index: 5000;
+  pointer-events: none;
+  background-color: #b3b3b3;
+}
+/* line 50, ../sass/screen.scss */
+.container .left .counter {
+  position: relative;
+  font-size: 1.1em;
+  z-index: 5;
+  color: #666666;
+}
+/* line 57, ../sass/screen.scss */
+.container .left:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  pointer-events: none;
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #ffffff);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+}
+
+/* line 73, ../sass/screen.scss */
+.copy h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+/* line 78, ../sass/screen.scss */
+.copy p {
+  margin-bottom: 1.2em;
+  line-height: 1.3;
+  font-size: 1.1em;
+}
